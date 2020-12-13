@@ -24,7 +24,8 @@ $( document ).ready(function() {
     let client_id = 'e564414635784bd5983214568eea71c8';
     // Use the following site to convert your regular url to the encoded version:
     // https://www.url-encode-decode.com/
-    let redirect_uri = 'https%3A%2F%2F2016115030.github.io%2Fsptf'; // GitHub Pages URL or whatever your public url to this app is
+    let redirect_uri = 'http://localhost:8888/callback';
+    // 'https%3A%2F%2F2016115030.github.io%2Fsptf'; // GitHub Pages URL or whatever your public url to this app is
     // *************** END *************************
 
     const redirect = `https://accounts.spotify.com/authorize?client_id=${client_id}&response_type=token&redirect_uri=${redirect_uri}`;
