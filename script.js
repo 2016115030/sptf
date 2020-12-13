@@ -17,7 +17,7 @@ $( document ).ready(function() {
   };
 
     // Get Access Token
-    const accessToken = getUrlParameter('access_token');
+    const accessToken = 'BQAJi6LYIZ1AtPfei8HStaUpkJ-qdTwPXTibcU3WYRdoPURYRAhS2fVclzBRFxxzGa6CvL4oZXKXvpDb2mEkVeb94P2TEils6uLqs4PSI7DI4RTrh08LhQuvqXAd7QdVzhLGkPSTdNyODhs';
 
     // AUTHORIZE with Spotify (if needed)
     // *************** REPLACE THESE VALUES! *************************
@@ -33,6 +33,10 @@ $( document ).ready(function() {
     if(accessToken == null || accessToken == "" || accessToken == undefined){
       window.location.replace(redirect);
     }
+
+
+    // access token: BQAJi6LYIZ1AtPfei8HStaUpkJ-qdTwPXTibcU3WYRdoPURYRAhS2fVclzBRFxxzGa6CvL4oZXKXvpDb2mEkVeb94P2TEils6uLqs4PSI7DI4RTrh08LhQuvqXAd7QdVzhLGkPSTdNyODhs
+
 
     // Search button has been clicked
     $( "#search_button" ).click(function() {
